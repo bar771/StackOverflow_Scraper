@@ -1,3 +1,3 @@
 # StackOverflow_Scraper
 
-Scrap users profiles from stackoverflow.com and save them localy into a db file.
+Scrap users profiles from stackoverflow.com and save them locally into a db file.
