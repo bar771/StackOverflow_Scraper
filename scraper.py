@@ -1,6 +1,7 @@
-from bs4 import BeautifulSoup
 import urllib
+from bs4 import BeautifulSoup
 import sqlite3
+import os.path
 
 dbname = 'users.db'
 
@@ -88,8 +89,7 @@ def installDB():
 	else:
 		print("Error! cannot create the database connection.")
 
-import os.path
-if os.path.isfile(dbname) is False
+if os.path.isfile(dbname) is False:
 	installDB()
 
 #pageNumber = 10450
