@@ -94,6 +94,10 @@ if os.path.isfile(dbname) is False:
 
 #pageNumber = 10450
 
+##############################################
+############  Infinite loop  #################
+# TODO: Break when it gets to the last page. #
+##############################################
 while True:
 	arr = parsePage(receiveContent(pageNumber))
 	if arr is None:
