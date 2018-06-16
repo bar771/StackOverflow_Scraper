@@ -88,9 +88,11 @@ def installDB():
 	else:
 		print("Error! cannot create the database connection.")
 
-installDB()
+import os.path
+if os.path.isfile(dbname) is False
+	installDB()
 
-pageNumber = 10450
+#pageNumber = 10450
 
 while True:
 	arr = parsePage(receiveContent(pageNumber))
